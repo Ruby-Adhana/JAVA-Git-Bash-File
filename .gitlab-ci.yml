@@ -1,0 +1,10 @@
+image: alpine:latest
+pages:
+  script:
+  - mkdir fol2234
+  - cp project.html img.2.jpg fol2234
+  artifacts:
+    paths:
+    - "fol2234"
+  only:
+  - main
